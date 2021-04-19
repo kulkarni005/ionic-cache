@@ -1,6 +1,6 @@
 import { NgModule, ModuleWithProviders, InjectionToken } from '@angular/core';
 import { CacheConfig, CacheService } from './cache.service';
-import { IonicStorageModule, Storage } from '@ionic/storage';
+import { IonicStorageModule, Storage } from '@ionic/storage-angular';
 import { CacheStorageService } from './cache-storage';
 
 export const CONFIG = new InjectionToken<CacheConfig>('CONFIG');
